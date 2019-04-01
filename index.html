@@ -1,0 +1,249 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1, shrink-to-fit-no">
+        <title>Minha Bagagem</title>
+        <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">              
+        <style>
+            .text-centered{
+                text-align: center;
+            }
+            .cont-centered{
+                text-align: center;
+            }
+            .jumbotron{
+                background-color:#D0ECE7;               
+            }
+        </style>
+    </head>
+    <body>       
+         <!--Barra de Navegação-->   
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/img/blog-logo.png" style="width: 30px; height: auto" 
+                        class="d-inline-block align-top">
+                </a>
+                
+                <button class="navbar-toggler hidden-md-up float-sm-right float-xs-right" type="button" data-toggle="collapse" data-target="#menu-sanduiche" aria-controls="menu-sanduiche" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>                
+                <div class="collapse navbar-collapse navbar-toggleable-xs" id="menu-sanduiche">
+                    <!--Inicio Itens do Menu-->                   
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                        <a href="#" class="nav-link">Início</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Dicas</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinos Visitados</a>
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">Brasil</a>
+                                            <a href="#" class="dropdown-item">Canadá</a>
+                                            <a href="#" class="dropdown-item">Nova Zelândia</a>
+                                        </div>
+                                    </li>
+                            </ul> 
+                    <!--Fim do Menu-->           
+                </div> 
+                <!--INICIO Barra de Pesquisa-->                
+                <form class="form-inline float-md-right float-sm-left float-xs-left">
+                        <input type="text" class="form-control" placeholder="Digite a Pesquisa..."/>
+                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+                <!--FIM Barra de Pesquisa-->
+            </nav>
+        <!--Fim da barra de Navegação-->
+        <div class="container">
+            <!--INICIO - Jumbotron-->             
+              <div class="jumbotron"> 
+                <h1 class="display-3">Blog - Minha Bagagem</h1>                
+                <hr class="my-w">
+                <blockquote class="blockquote text-right">
+                    <p class="mb-0">Digo: o real não está na saída nem na chegada: ele se dispõe para a gente é no meio da travessia.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">João Guimarães Rosa</cite></footer>
+                </blockquote>               
+              </div>
+            <!--FIM - Jumbotron--> 
+
+            <div class="form-inline">
+                <input type="text" id="txtnome" class="form-control" placeholder="Deixe o seu E-mail">
+                <a class="btn btn-primary" href="#" role="button">Receber Newsletter</a>   
+            </div>
+
+            <!--INICIO - Imagens-->            
+              <div class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+                      <img src="assets/img/cristo.jpg" class="img-fluid img-thumbnail">
+                      <p class="lead">Rio de Janeiro</p>
+                      <p>Rio de Janeiro é um município brasileiro, capital do estado homônimo, situado no Sudeste do país.</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+                        <img src="assets/img/canada.jpg" class="img-fluid img-thumbnail">
+                        <p class="lead">Canadá</p>
+                        <p>O Canadá é um país que ocupa grande parte da América do Norte e se estende desde o oceano Atlântico, a leste, até o oceano Pacífico, a oeste. Ao norte o país é limitado pelo oceano Ártico.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+                            <img src="assets/img/nova-zelandia.jpg" class="img-fluid img-thumbnail">
+                            <p class="lead">Nova Zelândia</p>
+                            <p>Nova Zelândia é um país insular, oficialmente pertencente à Oceania, no sudoeste do Oceano Pacífico, formado por duas massas de terra principais e por numerosas ilhas menores, sendo as mais notáveis as ilhas Stewart e Chatham.</p>
+                    </div>
+              </div>
+            <!--FIM - Imagens-->
+                           
+            <!--INICIO - Acordeão-->
+            <div id="accordion" role="tablist">   
+                   
+                    <div class="card">
+                            <div class="card-header" role="tab" id="forms-grid-cabecalho">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#forms-grid-conteudo">
+                                        Sobre o Blog
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="forms-grid-conteudo" class="collapse" role="tabpanel">
+                                <div class="card-block">
+                                    <div class="form-group row">
+                                        <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                    </div>                                
+                                </div>
+                            </div>
+                    </div>
+    
+                     <!--Form Básico-->
+                    <div class="card">
+                            <div class="card-header" role="tab" id="forms-basico-cabecalho">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#forms-basico-conteudo">
+                                        Cadastrar Sugestões
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="forms-basico-conteudo" class="collapse" role="tabpanel">
+                                <div class="card-block">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="txtnome"> Nome:</label>
+                                            <input type="text" id="txtnome" class="form-control" placeholder="Insira o seu nome">                                           
+                                        </div>                                   
+    
+                                        <div class="form-group">
+                                            <label for="slt-perfil">Cidade:</label>
+                                            <select id="slt-perfil" class="form-control">
+                                                <option>São Paulo</option>
+                                                <option>Rio de janeiro</option>
+                                                <option>Curitiba</option>
+                                            </select>
+                                        </div>                                    
+    
+                                        <fieldset class="form-group">
+                                            <legend>Gostou do Blog?</legend>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input type="radio" class="form-check-label" name="formas-pagamento" id="formas-pagamento-1">
+                                                    Sim
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input type="radio" class="form-check-label" name="formas-pagamento" id="formas-pagamento-2">
+                                                    Não
+                                                </label>
+                                            </div>                                        
+                                        </fieldset>
+    
+                                        <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Escreva:</label>
+                                                <textarea class="form-control" id="txtTexto" rows="3"></textarea>
+                                        </div>
+    
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input">
+                                                Receber cópia do cadastro.
+                                            </label>
+                                        </div>
+                                        <a class="btn btn-primary" href="#" role="button">Enviar</a>
+    
+                                    </form>
+                                </div>
+                            </div>
+                    </div>                    
+                                       
+                </div>
+            <!--FIM - Acordeão-->
+            <!--INICIO - Cards-->
+            <div class="jumbotron cont-centered">
+                <div class="row">
+                    <h4>Comentários:</h4>
+                </div>
+                <div class="row">                    
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="card card-inverse text-md-center text-sm-center text-xs-center">
+                                <div class="card-block">
+                                    <h4 class="card-title">Lara</h4>                                    
+                                </div>
+                                <img class="card-img-top" src="assets/img/lara.png" style="width: 100%; height:auto;">                                 
+                                <div class="card-block text-black bg-light">
+                                    <p class="card-text">Blog Incrível!</p>
+                                    <a href="#" class="card-link">Link 1</a>
+                                    <a href="#" class="card-link">Link 2</a>
+                                </div>
+                            </div>
+                    </div>      
+                    
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="card card-inverse text-md-center text-sm-center text-xs-center">
+                                <div class="card-block">
+                                    <h4 class="card-title">Ana</h4>                                    
+                                </div>
+                                <img class="card-img-top" src="assets/img/ana.png" style="width: 100%; height:auto;">                                 
+                                <div class="card-block text-black bg-light">
+                                    <p class="card-text">Ótimo resumo</p>
+                                    <a href="#" class="card-link">Link 1</a>
+                                    <a href="#" class="card-link">Link 2</a>
+                                </div>
+                            </div>
+                    </div> 
+
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="card card-inverse text-md-center text-sm-center text-xs-center">
+                                <div class="card-block">
+                                    <h4 class="card-title">Vivian</h4>                                    
+                                </div>
+                                <img class="card-img-top" src="assets/img/vivian.png" style="width: 100%; height:auto;">                                 
+                                <div class="card-block text-black bg-light">
+                                    <p class="card-text">Gostei!</p>
+                                    <a href="#" class="card-link">Link 1</a>
+                                    <a href="#" class="card-link">Link 2</a>
+                                </div>
+                            </div>
+                    </div> 
+
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="card card-inverse text-md-center text-sm-center text-xs-center">
+                                <div class="card-block">
+                                    <h4 class="card-title">José</h4>                                    
+                                </div>
+                                <img class="card-img-top" src="assets/img/jose.png" style="width: 100%; height:auto;">                                 
+                                <div class="card-block text-black bg-light">
+                                    <p class="card-text">Legal...</p>
+                                    <a href="#" class="card-link">Link 1</a>
+                                    <a href="#" class="card-link">Link 2</a>
+                                </div>
+                            </div>
+                    </div> 
+                </div>               
+            </div>            
+            <!--FIM - Cards-->            
+        </div>        
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        
+        <script src="assets/js/bootstrap.js"></script> 
+    </body>
+</html>
